@@ -6,7 +6,7 @@ let listaAlunos = ["Andre", "Alan", "Flavio", "Wagner", "Valnei", "Luis", "Lazar
 alunos = listaAlunos.length; //variavel que recebe numero de alunos 
 
 let count = 0; // Iniciando o contador para o laço
-console.log("Total de Alunos "+ "- "+ alunos); // Exibição do total de alunos 
+console.log(`Total de Alunos - ${alunos}`); // Exibição do total de alunos 
 
 while (count < alunos) {
 
